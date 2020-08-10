@@ -40,7 +40,7 @@ function mostrar()
 		do{
 
 			temperatura = prompt("ingrese temperatura");
-			temperatura = parseInt(temperatura);
+			temperatura = parseFloat(temperatura);
 		}while(temperatura <= 0 || isNaN(temperatura));
 
 		do{
